@@ -1,4 +1,58 @@
-h1 {
+/** {
+  border: 1px dotted red;
+}*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html{
+  background-color: #87DBE0;
+}
+
+.entire {
+  margin: 25%;
+  width: 426px;
+  height: 100px;
+}
+
+.splash {
+  float: right;
+  height: 100px;
+  width: 322px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  float: right;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+p {
   font-family: 'Sacramento', cursive;
+  font-size: 100px;
   color: #083643;
+  margin: -20px 0px 0px 0px;
+  height: 100px;
+  width: auto;
+  padding: 0;
+}
+
+h6 {
+  font-family: 'Bubbler One', sans-serif;
+  font-stretch: expanded;
+  font-size: 15px;
+  color: white;
+  margin: 0px 0px 0px 110px;
+}
+
+.stretching {
+  transform: scale(2,1);
 }
