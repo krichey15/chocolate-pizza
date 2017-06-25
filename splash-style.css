@@ -14,14 +14,15 @@ html{
 
 .entire {
   margin: 25%;
-  width: 426px;
-  height: 100px;
+  width: 478px;
+  height: 102px;
 }
 
 .splash {
   float: right;
   height: 100px;
-  width: 322px;
+  width: 374px;
+  /*background-color: white;*/
 }
 
 .logo {
@@ -41,16 +42,14 @@ p {
   color: #083643;
   margin: -20px 0px 0px 0px;
   height: 100px;
-  width: auto;
-  padding: 0;
 }
 
 h6 {
   font-family: 'Bubbler One', sans-serif;
-  font-stretch: expanded;
   font-size: 15px;
   color: white;
-  margin: 0px 0px 0px 110px;
+  margin: 0px 0px 0px 97px;
+  width: 184px;
 }
 
 .stretching {
