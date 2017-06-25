@@ -1,0 +1,43 @@
+* {
+  border: 1px dotted red
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.logo {
+  float: left;
+  width: 42px;
+  height: 45px;
+}
+
+.splash {
+  float: left;
+  width: ;
+  height: ;
+}
+
+.share {
+  float: right;
+}
+
+p.name-font{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  color: #083643;
+  margin: -8px 0px 0px 0px;
+}
+
+h6.stretching{
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 15px;
+  color: #083643;
+  margin:-19px 0px 0px 0px;
+}
+
+a{
+  text-decoration: none;
+}
