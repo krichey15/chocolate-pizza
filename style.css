@@ -87,3 +87,27 @@ a{
   text-indent: 50px;
   color: #083643;
 }
+
+.notecard {
+  background-image: url("lab-assets/list-bg.png");
+  height: 75%;
+  width: 70.5%;
+  margin:10px 14% 0px 14%;
+  column-count: 2;
+  column-gap: 0px;
+  column-rule-style: none;
+  padding-top: 30px;
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+.ingredients{
+  margin: 16px 0px 0px 40px;
+}
