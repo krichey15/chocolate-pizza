@@ -90,7 +90,7 @@ a{
 
 .notecard {
   background-image: url("lab-assets/list-bg.png");
-  height: 75%;
+  height: 44%;
   width: 70.5%;
   margin:10px 14% 0px 14%;
   column-count: 2;
@@ -110,4 +110,33 @@ input[type=checkbox]:checked + label {
 
 .ingredients{
   margin: 16px 0px 0px 40px;
+}
+
+.author {
+  margin: 10px 0px 0px 14%;
+  display: inline;
+  float:left
+}
+
+.ainfo {
+  display:inline;
+}
+
+.button {
+  display: inline;
+  float: right;
+  margin: -90px 15% 0px 0px;
+}
+
+button{
+  height: 50px;
+  width:315px;
+  font-size: 20px;
+  color: white;
+  background-color: #87DBE0;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+#info{
+  width: 720px
 }
