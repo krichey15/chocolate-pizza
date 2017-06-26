@@ -1,0 +1,142 @@
+/** {
+  border: 1px dotted red
+}*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.entire {
+  display: inline;
+}
+
+.logo {
+  float: left;
+  width: 42px;
+  height: 45px;
+  margin: 10px 3px 0px 14%;
+}
+
+.splash {
+  float: left;
+  width: 186px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.share {
+  float: right;
+  display: inline;
+  margin:16px 15% 0px 0px
+}
+
+p.name-font{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  color: #083643;
+  margin: -8px 0px 0px 0px;
+}
+
+h6.stretching{
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 15px;
+  color: #083643;
+  margin:-19px 0px 0px 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.line {
+  width: 71%;
+  height: 10px;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 20px;
+  background-color: #87DBE0;
+  display: inline-block;
+}
+
+#print-button {
+  float: right;
+  display: inline;
+  margin-right: 18.3%;
+}
+
+#date {
+  margin: 0px 0px 0px 14%;
+}
+
+#name, #date {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+#name {
+  margin: 40px 0px 0px 14%;
+}
+
+#pizza{
+  margin: 20px 14% 0px 14%;
+}
+
+.dummy {
+  margin: 15px 14.5% 0px 14%;
+  text-indent: 50px;
+  color: #083643;
+}
+
+.notecard {
+  background-image: url("lab-assets/list-bg.png");
+  height: 44%;
+  width: 70.5%;
+  margin:10px 14% 0px 14%;
+  column-count: 2;
+  column-gap: 0px;
+  column-rule-style: none;
+  padding-top: 30px;
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+.ingredients{
+  margin: 16px 0px 0px 40px;
+}
+
+.author {
+  margin: 10px 0px 0px 14%;
+  display: inline;
+  float:left
+}
+
+.ainfo {
+  display:inline;
+}
+
+.button {
+  display: inline;
+  float: right;
+  margin: -90px 15% 0px 0px;
+}
+
+button{
+  height: 50px;
+  width:315px;
+  font-size: 20px;
+  color: white;
+  background-color: #87DBE0;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+#info{
+  width: 720px
+}

@@ -1,0 +1,57 @@
+/** {
+  border: 1px dotted red;
+}*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html{
+  background-color: #87DBE0;
+}
+
+.entire {
+  margin: 25%;
+  width: 478px;
+  height: 102px;
+}
+
+.splash {
+  float: right;
+  height: 100px;
+  width: 374px;
+  /*background-color: white;*/
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  float: right;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+p {
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  color: #083643;
+  margin: -20px 0px 0px 0px;
+  height: 100px;
+}
+
+h6 {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: 0px 0px 0px 97px;
+  width: 184px;
+}
+
+.stretching {
+  transform: scale(2,1);
+}
