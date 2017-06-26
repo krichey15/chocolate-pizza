@@ -8,20 +8,28 @@ html, body {
   margin: 0;
 }
 
+.entire {
+  display: inline;
+}
+
 .logo {
   float: left;
   width: 42px;
   height: 45px;
+  margin: 10px 0px 0px 10px;
 }
 
 .splash {
   float: left;
-  width: ;
-  height: ;
+  width: 186px;
+  height: 50px;
+  margin-top: 10px;
 }
 
 .share {
   float: right;
+  display: inline;
+  margin:16px 10px 0px 0px
 }
 
 p.name-font{
@@ -40,4 +48,23 @@ h6.stretching{
 
 a{
   text-decoration: none;
+}
+
+.line {
+  width: 98%;
+  height: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: #87DBE0;
+  display: inline-block;
+}
+
+#print-button {
+  float: right;
+  display: inline;
+}
+
+.name {
+  display: inline;
 }
