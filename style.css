@@ -1,6 +1,6 @@
-* {
+/** {
   border: 1px dotted red
-}
+}*/
 
 html, body {
   height: 100%;
@@ -16,7 +16,7 @@ html, body {
   float: left;
   width: 42px;
   height: 45px;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 3px 0px 14%;
 }
 
 .splash {
@@ -29,7 +29,7 @@ html, body {
 .share {
   float: right;
   display: inline;
-  margin:16px 10px 0px 0px
+  margin:16px 15% 0px 0px
 }
 
 p.name-font{
@@ -51,10 +51,10 @@ a{
 }
 
 .line {
-  width: 98%;
+  width: 71%;
   height: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 14%;
+  margin-right: 14%;
   margin-top: 20px;
   background-color: #87DBE0;
   display: inline-block;
@@ -63,8 +63,27 @@ a{
 #print-button {
   float: right;
   display: inline;
+  margin-right: 18.3%;
 }
 
-.name {
-  display: inline;
+#date {
+  margin: 0px 0px 0px 14%;
+}
+
+#name, #date {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+#name {
+  margin: 40px 0px 0px 14%;
+}
+
+#pizza{
+  margin: 20px 14% 0px 14%;
+}
+
+.dummy {
+  margin: 15px 14.5% 0px 14%;
+  text-indent: 50px;
+  color: #083643;
 }
